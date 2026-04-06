@@ -19,3 +19,5 @@ jobs:
       - run: npm ci
       - run: npm run package:discover
       - run: npm run build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
