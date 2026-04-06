@@ -22,7 +22,7 @@ if (mode === 'production') {
 
 module.exports = {
   mode,
-  devtool: 'source-map',
+  devtool: mode === 'production' ? false : 'source-map',
   entry: {
     osjs: path.resolve(__dirname, 'src/client/index.js')
   },
