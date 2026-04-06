@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "OS.js WebAssembly example application",
   "main": "index.js",
+  "author": "Michael Rowley <Michaellrowley@protonmail.com>",
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch"
