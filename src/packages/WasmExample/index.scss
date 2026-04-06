@@ -1,0 +1,8 @@
+.Window_WasmExampleWindow .osjs-window-content {
+  overflow: hidden;
+  padding: 0;
+}
+
+.Window_WasmExampleWindow canvas {
+  image-rendering: pixelated;
+}

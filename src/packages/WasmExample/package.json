@@ -1,0 +1,17 @@
+{
+  "name": "@osjs/wasm-example-application",
+  "version": "1.0.0",
+  "description": "OS.js WebAssembly example application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "@osjs/dev-meta": "^2.1.0"
+  },
+  "osjs": {
+    "type": "package"
+  }
+}
