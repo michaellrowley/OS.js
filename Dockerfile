@@ -30,8 +30,9 @@
 
 # THIS IS ONLY INTENDED FOR DEVELOPMENT USAGE
 
-FROM node:10
+FROM node:20-slim
 RUN npm install -g nodemon
 WORKDIR /usr/src/osjs
 COPY entrypoint.sh .
-CMD ./entrypoint.sh
+USER node
+CMD ["./entrypoint.sh"]
