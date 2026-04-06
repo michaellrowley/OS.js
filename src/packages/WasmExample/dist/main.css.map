@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./index.scss"],"names":[],"mappings":"AAAA;EACE;EACA;AACF;;AAEA;EACE;AACF,C","file":"main.css","sourcesContent":[".Window_WasmExampleWindow .osjs-window-content {\n  overflow: hidden;\n  padding: 0;\n}\n\n.Window_WasmExampleWindow canvas {\n  image-rendering: pixelated;\n}\n"],"sourceRoot":""}

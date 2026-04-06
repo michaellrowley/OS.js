@@ -1,0 +1,15 @@
+{
+  "name": "WasmExample",
+  "category": "development",
+  "icon": "icon.png",
+  "title": {
+    "en_EN": "WASM Demo"
+  },
+  "description": {
+    "en_EN": "WebAssembly canvas demo application"
+  },
+  "files": [
+    "main.js",
+    "main.css"
+  ]
+}

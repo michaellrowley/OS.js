@@ -53,6 +53,18 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.wasm$/,
+        type: 'javascript/auto',
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]'
+            }
+          }
+        ]
+      },
+      {
         test: /\.(svg|png|jpe?g|gif|webp)$/,
         use: [
           {
